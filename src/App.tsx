@@ -20,7 +20,7 @@ import {
   Row,
 } from "@sketchpixy/rubix";
 
-import './App.scss';
+import './style/App.scss';
 
 class App extends React.Component {
   public render() {
@@ -61,7 +61,7 @@ class App extends React.Component {
                               <HelpBlock>Example block-level help text here.</HelpBlock>
                             </FormGroup>
 
-                            <Checkbox checked={true} readOnly={true}>Checkbox</Checkbox>
+                            <Checkbox checked={true} readOnly={true} disabled={true}>Checkbox</Checkbox>
                             <Radio checked={true} readOnly={true}>Radio</Radio>
 
                             <FormGroup>
